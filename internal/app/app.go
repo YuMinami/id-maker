@@ -21,4 +21,6 @@ func Run(cfg *config.Config) {
 	}
 
 	defer mysql.Close()
+
+	//segmentUseCase := usecase.New(repo.New(mysql))
 }
